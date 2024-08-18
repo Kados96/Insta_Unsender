@@ -48,7 +48,7 @@ while True:
 
         # Depending on connection or browser speed, delays are necessary between button clicks, adjust them here
         time.sleep(0.5)
-        pyautogui.moveTo(1275,789) # The confirmation for "Unsend" in the middle of the screen
+        pyautogui.click(1275,789) # The confirmation for "Unsend" in the middle of the screen
         time.sleep(1)
         non = 0 # non counter resets to 0, because message was found
 
