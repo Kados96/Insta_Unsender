@@ -1,28 +1,36 @@
 # Insta Message Unsender
 We've all sent embarassing messages...
 
-## What it does?
-After many tries with browser based unsenders, I tried to create my own version, with a bit more straightforward approach: Take a screenshot, find the message, unsend the message and repeat this until messages can be found.
+## What it does
+After trying several browser-based message unsenders with little success, I decided to create my own approach. This script automates the process of:
+	1.	Taking a screenshot
+	2.	Detecting the message
+	3.	Unsending the message
+	4.	Repeating until all messages are removed
 
 ## Does it actually work?
-I would say 95% yes. One of the benefits of this method is that you don't really interact with instagram in the browser, so you won't be caught. It is probably slower, although the unsenders I tried to use never worked for me. This version sometimes skips messages (because of the messages jumping few lines when too many are loaded), but other than that it is great that you can leave it run during the night and it will do its thing.
+✅ Success Rate: ~95%
+	•	Unlike browser-based methods, this script doesn’t interact directly with Instagram, reducing the risk of detection.
+	•	It runs autonomously, making it useful for long sessions (e.g., overnight).
+	•	Occasionally, it may skip messages due to Instagram’s chat UI shifting when too many messages load.
 
-# How to use it?
-!!!Please note that currently only 1440p, 16:9 screens are supported. Why? Because some positions on the screen are hard coded in order to save processing time.
+## How to use it?
+⚠ Currently, only 1440p (16:9) screens are supported
+(Specific screen positions are hardcoded for performance reasons.)
 
-1. Download the files and put them all in the same folder.
-2. Open the script, enter your directory
-3. Open Instagram in your browser, navigate to the conversation you want your message to be removed from
-4. Maximize the browser window
-5. Start the script, you have 5 seconds by default to get back to your browser window
-6. Watch the cursor movement, if an error occurs (mouse not moving to the correct position), then stop the script from running by moving the cursor to the edge of the screen
-7. Adjust the corresponding click locations in the file
-8. Try again
-9. ???
-10. Profit
+Steps:
+	1.	Download and place all files in the same folder.
+	2.	Open the script and set your working directory.
+	3.	Open Instagram in your browser and navigate to the conversation.
+	4.	Maximize your browser window.
+	5.	Start the script (you have 5 seconds to return to the browser).
+	6.	Observe the cursor movements. If the mouse doesn’t move correctly, stop the script by moving your cursor to the screen edge.
+	7.	Adjust the click positions in the script if needed.
+	8.	Run the script again.
+	9.	🎉 Done!
+
     
-+1. Send me a message if I helped you save some headache
+### Need Help?
 
-
-###
-PS.: I don't know Python that much, so if you have a tip or any ideas let me know.
+💬 If this script saved you some headaches, let me know!
+🐍 I’m not a Python expert, so if you have tips or improvements, feel free to contribute.
